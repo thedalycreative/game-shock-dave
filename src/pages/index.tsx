@@ -54,7 +54,8 @@ export default function Home() {
     <>
       <Head>
         <title>Dave vs. Puzzles</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#129513;</text></svg>" />
+        <link rel="icon" type="image/svg+xml" href="/game-shockwave-icon.svg" />
+        <link rel="apple-touch-icon" href="/game-shockwave-icon.svg" />
         <meta name="description" content="25 puzzles. One slow reveal. Zero faith in Dave." />
       </Head>
       <Layout
